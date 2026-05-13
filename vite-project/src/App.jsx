@@ -30,7 +30,7 @@ function App() {
       active: true,
     }
 
-    setTasks((currentTasks) => [...currentTasks, newTask])
+    setTasks((currentTasks) => [newTask, ...currentTasks])
   }
 
   const toggleTask = (taskId) => {
