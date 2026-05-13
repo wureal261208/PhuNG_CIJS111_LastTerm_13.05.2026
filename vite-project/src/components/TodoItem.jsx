@@ -23,7 +23,7 @@ function TodoItem({ task, showDelete, onToggleTask, onDeleteTask }) {
         <button
           type="button"
           onClick={() => onDeleteTask(task.id)}
-          className="inline-flex size-8 shrink-0 items-center justify-center rounded text-slate-300 transition hover:bg-red-50 hover:text-red-500 focus:outline-none"
+          className="inline-flex size-8 shrink-0 cursor-pointer items-center justify-center rounded text-slate-300 transition hover:bg-red-50 hover:text-red-500 focus:outline-none"
           aria-label={`Delete ${task.title}`}
           title="Delete task"
         >

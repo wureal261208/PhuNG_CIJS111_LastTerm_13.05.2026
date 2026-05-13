@@ -78,7 +78,7 @@ function App() {
               type="button"
               onClick={deleteCompletedTasks}
               disabled={completedCount === 0}
-              className="rounded-sm bg-red-500 px-7 py-3 text-sm font-semibold text-white transition hover:bg-red-600 focus:outline-none disabled:cursor-not-allowed disabled:bg-slate-300"
+              className="cursor-pointer rounded-sm bg-red-500 px-7 py-3 text-sm font-semibold text-white transition hover:bg-red-600 focus:outline-none disabled:cursor-not-allowed disabled:bg-slate-300"
             >
               delete all
             </button>
